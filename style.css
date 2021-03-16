@@ -37,7 +37,9 @@ header a, a:visited {
 }
 
 .welcome {
-    
+    background-color: black;
+    border-style: solid;
+    border-color: red;
 }
 
 .background {
