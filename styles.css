@@ -35,9 +35,27 @@ header a, a:visited {
     text-decoration:none;
     color:#fcfcfc;
 }
+
 .welcome {
     background-color: blue;
 }
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
+}
+
+.content{
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: bold;
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000;
+    position: absolute;
+    z-index: 100;
+}
+
 @keyframes move-twink-back {
     from {background-position:0 0;}
     to {background-position:-10000px 5000px;}
