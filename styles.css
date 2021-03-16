@@ -7,6 +7,10 @@ https://mkrtchyan.ga
     margin: 0;
     padding: 0;
 }
+h1 {
+    position:relative;
+    z-index:5;
+}
 header {
     background-color:rgba(33, 33, 33, 0.9);
     color:#ffffff;
